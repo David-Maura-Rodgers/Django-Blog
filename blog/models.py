@@ -1,3 +1,7 @@
+# pip3 install 'django<4'
+# pip3 install dj-database-url psycopg2
+# pip3 install dj3-cloudinary-storage
+# pip3 install 'django<4' gunicorn
 # python3 manage.py makemigrations --dry-run
 # python3 manage.py makemigrations
 # python3 manage.py migrate
