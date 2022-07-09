@@ -2,13 +2,15 @@
 # pip3 install dj-database-url psycopg2
 # pip3 install dj3-cloudinary-storage
 # pip3 install 'django<4' gunicorn
+# pip3 install django-allauth
+# pip3 install django-summernote
+# pip3 freeze -- local > requirements.txt
+
 # python3 manage.py makemigrations --dry-run
 # python3 manage.py makemigrations
 # python3 manage.py migrate
 # python3 manage.py createsuperuser
 # python3 manage.py runserver
-# pip3 freeze -- local > requirements.txt
-# pip3 install django-summernote
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
