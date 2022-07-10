@@ -6,6 +6,9 @@
 # pip3 install django-summernote
 # pip3 freeze -- local > requirements.txt
 
+# ls ../.pip-modules/lib
+# cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/* ./templates  # noqa
+
 # python3 manage.py makemigrations --dry-run
 # python3 manage.py makemigrations
 # python3 manage.py migrate
